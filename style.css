@@ -1,0 +1,61 @@
+h2 {
+    color: rgb(0, 0, 0);
+}
+
+.banner {
+    background-image: url("images/Sans\ titre.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 150px 0;
+    text-align: center;
+    }
+
+ .btn-blue {
+        background-color: #a5341a;
+        color: white;
+        padding: 16px 48px;
+        border-radius: 4px;
+        display: inline-block;
+        text-decoration: none;
+        transition: .3s;
+        font-size: 20px;
+        font-weight: bold;
+  }
+
+  h1 {
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 0, 0);
+
+}
+
+.cards {
+    grid-template-columns: 1fr 1fr 1fr;
+    display:grid;
+}
+
+    div {
+        display: block;
+    }
+
+
+        .card-white {
+            background: white;
+            box-shadow: 0 0 16px rgba(0,0,0,0.1);
+            border-radius: 4px;
+            padding: 24px;
+            margin: 8px;
+        }
+            .card-white img {
+                width: 100%;
+                height: 180px;
+                object-fit: cover;
+                border-radius: 4px;
+            }
+            
+
+.footer {
+    background: #340101;
+    color: white;
+    padding: 10px 0px;
+}
+
